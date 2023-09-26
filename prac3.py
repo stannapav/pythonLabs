@@ -21,11 +21,10 @@ while True:
     print("Такого значення нема")
 
 if day == DaysOfWeek.Saturday.value or day == DaysOfWeek.Sunday.value:
-    price = ((oneMinute * minutes) / 100) * 20
+    price = ((oneMinute * minutes) / 100) * 80
     print(f"У вас знижка 20% тому усьо ціна: {price:.2f} гривень")
 else:
     price = oneMinute * minutes
-    print(f"Ціна за ваш телефоний дзвінок: {price:.2f} гривень")
 
 
 #5.9. Написати програму, в якій при введенні часу доби виводиться відповідне привітання.
