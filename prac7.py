@@ -18,9 +18,12 @@ print("\n")
 
 #3
 list = []
-min, max = -10, 9
+
 for i in range(10):
     list.append(random.randint(-10,1))
+    
+min = min(list)
+max = max(list)
 
 print("original list:")
 print(list)
