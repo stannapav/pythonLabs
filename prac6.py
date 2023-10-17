@@ -43,7 +43,8 @@ print()
 
 #7
 for i in range(3):
-    cosmicObj.append(input("Enter cosmic obj: "))
+    el = input("Enter cosmic obj: ")
+    cosmicObj.append(el)
 
 print(f"\nComic objects:")
 print(cosmicObj)
