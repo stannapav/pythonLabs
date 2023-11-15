@@ -13,6 +13,7 @@ canvas.create_arc(90, 330, 410, 730,width = 35, outline = "yellow", extent = 180
 canvas.create_arc(60, 300, 440, 740,width = 35, outline = "orange", extent = 180, style=ARC)
 canvas.create_arc(30, 270, 470, 750,width = 35, outline = "red", extent = 180, style=ARC)
 
+time.sleep(1)
 for i in range(7,0,-1):
     canvas.move(i, 0, -50)
     tk.update()
